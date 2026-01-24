@@ -64,10 +64,10 @@ def calculate_factorial(n):
    
 # Unit tests
 print("\nRunning factoral tests...")
-
-print("Factoral tests sucessful!")
 assert calculate_factorial(5) == 120
 assert calculate_factorial(1) == 1
 assert calculate_factorial(0) == 1
+print("Factoral tests sucessful!")
+
 result = calculate_factorial(5)
 print(f"\nThe factoral of 5 is {result}") # Now correctly prints 120
